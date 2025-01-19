@@ -1,0 +1,23 @@
+from NftSDK.NftSDK import NFTApi
+
+a = NFTApi()
+a.set_api_key_token('2rOpRIb5TEcRLcexOw3Am4cR7SI7r9S2lf7Ahi1r')
+print(a.market_analytics_report('ethereum', '24h'))
+print(a.market_place_holders())
+print(a.market_place_analytics())
+print(a.market_holders_insights())
+print(a.market_traders_insights())
+print(a.transactions())
+print(a.collection_holders())
+print(a.collection_analytics())
+print(a.gaming_metrics())
+print(a.gaming_collection_metrics())
+print(a.brand_metadata())
+print(a.brand_metrics())
+print(a.nft_analytics())
+print(a.nft_traders())
+print(a.wallet_analytics())
+print(a.wallet_traders())
+print(a.token_price_estimate())
+print(a.collection_price_estimate())
+
