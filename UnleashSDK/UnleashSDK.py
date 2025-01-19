@@ -1,7 +1,7 @@
 import requests
 
 
-class NFTApi:
+class UnleashNFTApi:
     def __init__(self):
         self.url_base = 'https://api.unleashnfts.com/api/v2/nft'
         self.api_key = None
