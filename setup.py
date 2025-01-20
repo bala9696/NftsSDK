@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='UnleashNFT',
+    name='UnleashSDK',
     version='1.0.0',
     packages=find_packages(),
     license='GNU General Public License v3.0',
