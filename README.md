@@ -28,10 +28,11 @@ pip install unleashSDK
 Start by importing the package and initializing the client with your API key:
 
 ```python
-from unleashSDK import Client
+from unleashSDK import UnleashNftApi
 
 # Initialize client
-client = Client(api_key="your_api_key")
+client = UnleashNftApi()
+client.set_api_key_token("your_api_key")
 ```
 
 ### Examples
