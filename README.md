@@ -37,30 +37,30 @@ client.set_api_key_token("your_api_key")
 
 ### Examples
 
-#### Fetch Market Metrics
+#### Fetch Market Analytics
 
 Retrieve market metrics for a specific NFT collection:
 
 ```python
-response = client.get_market_metrics(collection_id="example_collection", time_range="7d")
+response = client.market_analytics_report(blockchain="ethereum", time_range="7d")
 print(response)
 ```
 
-#### Analyze Wash Trades
+#### Analyze Wallet Trades
 
-Fetch wash trade data for a given blockchain:
+Fetch wallet trade data for a given blockchain:
 
 ```python
-response = client.get_washtrade_data(blockchain="ethereum", time_range="30d")
+response = client.wallet_traders(blockchain="ethereum", time_range="30d")
 print(response)
 ```
 
-#### Get Whale Analytics
+#### Gaming Metrics
 
-Analyze whale activities within a collection:
+Analyze gamming metrics activities:
 
 ```python
-response = client.get_whale_metrics(collection_id="example_collection")
+response = client.gaming_metrics()
 print(response)
 ```
 
